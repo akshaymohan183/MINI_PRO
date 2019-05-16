@@ -3,6 +3,6 @@ language: c
  compiler: 
  - clang
  - gcc
- script:
+script:
  - gcc -o test test.c // we can use gcc instead of clang too
  - ./test 
