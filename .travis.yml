@@ -4,5 +4,5 @@ language: c
  - clang
  - gcc
 script:
- - gcc -o test test.c // we can use gcc instead of clang too
+ - gcc -o test Integrated.c // we can use gcc instead of clang too
  - ./test 
